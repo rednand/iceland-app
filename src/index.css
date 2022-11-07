@@ -1,13 +1,29 @@
+@font-face {
+  font-family: "HKGrotesk";
+  src: url("./assets/fonts/HKGrotesk-BoldItalic.ttf");
+}
+@font-face {
+  font-family: "Typo Grotesk";
+  src: url("./assets/fonts/Typo\ Grotesk\ Black\ Demo.otf");
+}
+@font-face {
+  font-family: "Evolve Sans";
+  src: url("./assets/fonts/made_evolve_sans/MADE\ Evolve\ Sans\ Light\ \(PERSONAL\ USE\).otf");
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
